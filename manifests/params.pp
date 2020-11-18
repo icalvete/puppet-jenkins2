@@ -6,7 +6,7 @@ class jenkins2::params {
   $repo_user              = false
   $repo_pass              = false
   $repo_path              = 'debian/binary'
-  $repo_resource          = 'jenkins_2.251_all.deb'
+  $repo_resource          = 'jenkins_2.265_all.deb'
 
   $jenkins_plugins = [
     'apache-httpcomponents-client-4-api',
